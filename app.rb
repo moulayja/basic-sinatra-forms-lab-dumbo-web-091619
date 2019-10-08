@@ -10,11 +10,11 @@ class App < Sinatra::Base
     erb :team
    name = params["name"]
    coach = params["coach"]
-   original_string = params["string"]
-   original_string = params["string"]
-   original_string = params["string"]
-   original_string = params["string"]
-   original_string = params["string"]
+   pg = params["pg"]
+   cg = params["cg"]
+   pf = params["pf"]
+   sf = params["sf"]
+   c = params["c"]
    original_string = params["string"]
 
   end
