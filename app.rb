@@ -10,7 +10,7 @@ class App < Sinatra::Base
    name = params["name"]
    coach = params["coach"]
    pg = params["pg"]
-   cg = params["cg"]
+   sg = params["cg"]
    pf = params["pf"]
    sf = params["sf"]
    c = params["c"]
